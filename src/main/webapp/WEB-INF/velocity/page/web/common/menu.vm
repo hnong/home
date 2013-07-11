@@ -1,0 +1,105 @@
+<div class="row-fluid">
+    <nav style="margin-top: -25px; height: 11851px;" class="sideBar hidden-phone pull-left">
+        <ul data-spy="affix" class="side_nav affix">
+            <li>
+                <figure>
+                    <h1>
+                        <a href="http://www.36kr.com/">
+                            <img width="110" height="90" src="/resources/page/web/img/6fbcd8eda0c0d0ce194b208005376e92.png"
+                                 alt="36氪" title="点击回到36氪首页">
+                        </a>
+                    </h1></figure>
+            </li>
+            <li>
+                <figure>
+                    <div class="menuText">
+                        <a href="http://www.36kr.com/">首页</a>
+                    </div>
+                    <i class="icon-home"></i>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <div class="menuText">
+                        <a href="http://www.36kr.com/recommended">推荐</a>
+                    </div>
+                    <i class="icon-flag"></i>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <div class="menuText">
+                        <a href="http://www.36kr.com/explore">分类浏览</a>
+                    </div>
+                    <i class="icon-filter"></i>
+                </figure>
+            </li>
+            <hr class="krhr_nav">
+            <li class="dropper active" data-link="none">
+                <figure>
+                    <div class="menuText" style="color: #000"><a target="_blank" rel="twipsy"
+                                                                 href="http://www.36kr.com/+"
+                                                                 data-original-title="www.36kr.net 服务创业">36氪Plus<i
+                            class="icon icon-angle-down"></i></a></div>
+                </figure>
+                <ul class="subSide" style="display: block;">
+                    <li data-target="photos">
+                        <div class="menuText"><a
+                                onclick="recordOutboundLink(this, &#39;Outbound Links&#39;, &#39;36kr.net/report&#39;);"
+                                href="http://www.36kr.net/help/report" target="_blank" rel="twipsy"
+                                data-original-title="寻求36氪报道">报道</a>|<a
+                                onclick="recordOutboundLink(this, &#39;Outbound Links&#39;, &#39;36kr.net/financing&#39;);"
+                                href="http://www.36kr.net/help/financing" target="_blank" rel="twipsy"
+                                data-original-title="融资服务">融资</a>|<a
+                                onclick="recordOutboundLink(this, &#39;Outbound Links&#39;, &#39;36kr.net/product&#39;);"
+                                href="http://www.36kr.net/product" target="_blank" rel="twipsy"
+                                data-original-title="浏览项目数据库">项目 </a></div>
+                    </li>
+                </ul>
+            </li>
+            <hr class="krhr_nav">
+            <li>
+                <figure>
+                    <div class="menuText">
+                        <a target="_blank" href="http://www.36kr.com/topics">北极社区 <sup style="color:red">New!</sup></a>
+                    </div>
+                </figure>
+            </li>
+            <hr class="krhr_nav">
+            <li>
+                <figure>
+                    <div class="menuText">
+                        <a href="http://www.36kr.com/events">线下活动<i class="icon icon-angle-down"></i></a>
+                    </div>
+                </figure>
+            </li>
+            <ul class="subSide" style="display: block;">
+                <li data-target="photos">
+                    <div class="menuText"><a
+                            onclick="recordOutboundLink(this, &#39;Outbound Links&#39;, &#39;36kr.com/events&#39;);"
+                            href="http://events.36kr.com/oday-201308-bj/" target="_blank" title="创业团队报名中">开放日-北京</a>&nbsp;&nbsp;
+                    </div>
+                </li>
+                <li data-target="photos">
+                    <div class="menuText"><a
+                            onclick="recordOutboundLink(this, &#39;Outbound Links&#39;, &#39;36kr.net/events&#39;);"
+                            href="http://www.36kr.net/event/EnteringDCM?refer=36kr" target="_blank"
+                            title="“走进顶级投资机构”系列活动第一期">走进DCM</a>&nbsp;&nbsp;</div>
+                </li>
+            </ul>
+            <li>
+                <figure>
+                    <a rel="twipsy" href="http://open.189.cn/" target="_blank" data-original-title="天翼开放平台"><img
+                            src="/resources/page/web/img/860383ce6d25fdf6dcba2f6b8720ce3a.png" width="75" height="38"></a>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <a rel="twipsy" class="sep10" href="http://www.neic.com.cn/" target="_blank"
+                       data-original-title="NEIC诺基亚体验创新中心"><img src="/resources/page/web/img/c51b238c2acc2fb62991cb0d95786890.png"
+                                                                width="75" height="35"></a>
+                </figure>
+            </li>
+        </ul>
+    </nav>
+</div>

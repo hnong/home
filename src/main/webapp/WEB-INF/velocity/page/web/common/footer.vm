@@ -1,0 +1,12 @@
+<div id="footer" class="row-fluid hidden-phone"
+     style="color: #cdcdcd; margin-top: 30px; padding-top:10px; border-top: 5px solid #286BA7">
+    <div class="span6 blogContent">京ICP备11027501号 京公网安备110108000590号 <br> ©2011-2012 36氪 | 本站由<a
+            href="http://webluker.com/" target="_blank" title="网站加速-DNS解析-网站监控"> WebLuker </a>提供 CDN 加速服务 <br><a
+            href="http://www.36kr.com/about">关于</a> | <a href="http://www.36kr.com/joinus">加入36氪</a> | <a
+            href="http://www.36kr.com/contact-us">联系我们</a> | <a href="http://www.36kr.net/help/report" target="_blank">寻求报道</a>
+        | <i class="icon-mobile-phone"></i> <a href="http://www.36kr.com/ios">iOS 客户端</a> |<a
+                href="http://www.36kr.com/sub/">订阅</a> <a href="http://www.36kr.com/site_map.xml"> </a></div>
+    <a class="pull-right powered_by_rubychina" target="_blank" title="Ruby China" href="http://ruby-china.org/"><img
+            width="32" height="32" title="Ruby China" style="width: 32; height: 32px;"
+            src="/resources/page/web/img/838b2c4beccdb67c78411b82051e8ebd.png" alt="Ruby China"></a>
+</div>
