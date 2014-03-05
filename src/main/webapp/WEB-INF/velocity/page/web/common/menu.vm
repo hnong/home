@@ -1,105 +1,168 @@
-<div class="row-fluid">
-    <nav style="margin-top: -25px; height: 11851px;" class="sideBar hidden-phone pull-left">
-        <ul data-spy="affix" class="side_nav affix">
-            <li>
-                <figure>
-                    <h1>
-                        <a href="http://www.36kr.com/">
-                            <img width="110" height="90" src="/resources/page/web/img/6fbcd8eda0c0d0ce194b208005376e92.png"
-                                 alt="36氪" title="点击回到36氪首页">
-                        </a>
-                    </h1></figure>
-            </li>
-            <li>
-                <figure>
-                    <div class="menuText">
-                        <a href="http://www.36kr.com/">首页</a>
-                    </div>
-                    <i class="icon-home"></i>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <div class="menuText">
-                        <a href="http://www.36kr.com/recommended">推荐</a>
-                    </div>
-                    <i class="icon-flag"></i>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <div class="menuText">
-                        <a href="http://www.36kr.com/explore">分类浏览</a>
-                    </div>
-                    <i class="icon-filter"></i>
-                </figure>
-            </li>
-            <hr class="krhr_nav">
-            <li class="dropper active" data-link="none">
-                <figure>
-                    <div class="menuText" style="color: #000"><a target="_blank" rel="twipsy"
-                                                                 href="http://www.36kr.com/+"
-                                                                 data-original-title="www.36kr.net 服务创业">36氪Plus<i
-                            class="icon icon-angle-down"></i></a></div>
-                </figure>
-                <ul class="subSide" style="display: block;">
-                    <li data-target="photos">
-                        <div class="menuText"><a
-                                onclick="recordOutboundLink(this, &#39;Outbound Links&#39;, &#39;36kr.net/report&#39;);"
-                                href="http://www.36kr.net/help/report" target="_blank" rel="twipsy"
-                                data-original-title="寻求36氪报道">报道</a>|<a
-                                onclick="recordOutboundLink(this, &#39;Outbound Links&#39;, &#39;36kr.net/financing&#39;);"
-                                href="http://www.36kr.net/help/financing" target="_blank" rel="twipsy"
-                                data-original-title="融资服务">融资</a>|<a
-                                onclick="recordOutboundLink(this, &#39;Outbound Links&#39;, &#39;36kr.net/product&#39;);"
-                                href="http://www.36kr.net/product" target="_blank" rel="twipsy"
-                                data-original-title="浏览项目数据库">项目 </a></div>
-                    </li>
-                </ul>
-            </li>
-            <hr class="krhr_nav">
-            <li>
-                <figure>
-                    <div class="menuText">
-                        <a target="_blank" href="http://www.36kr.com/topics">北极社区 <sup style="color:red">New!</sup></a>
-                    </div>
-                </figure>
-            </li>
-            <hr class="krhr_nav">
-            <li>
-                <figure>
-                    <div class="menuText">
-                        <a href="http://www.36kr.com/events">线下活动<i class="icon icon-angle-down"></i></a>
-                    </div>
-                </figure>
-            </li>
-            <ul class="subSide" style="display: block;">
-                <li data-target="photos">
-                    <div class="menuText"><a
-                            onclick="recordOutboundLink(this, &#39;Outbound Links&#39;, &#39;36kr.com/events&#39;);"
-                            href="http://events.36kr.com/oday-201308-bj/" target="_blank" title="创业团队报名中">开放日-北京</a>&nbsp;&nbsp;
-                    </div>
-                </li>
-                <li data-target="photos">
-                    <div class="menuText"><a
-                            onclick="recordOutboundLink(this, &#39;Outbound Links&#39;, &#39;36kr.net/events&#39;);"
-                            href="http://www.36kr.net/event/EnteringDCM?refer=36kr" target="_blank"
-                            title="“走进顶级投资机构”系列活动第一期">走进DCM</a>&nbsp;&nbsp;</div>
-                </li>
-            </ul>
-            <li>
-                <figure>
-                    <a rel="twipsy" href="http://open.189.cn/" target="_blank" data-original-title="天翼开放平台"><img
-                            src="/resources/page/web/img/860383ce6d25fdf6dcba2f6b8720ce3a.png" width="75" height="38"></a>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <a rel="twipsy" class="sep10" href="http://www.neic.com.cn/" target="_blank"
-                       data-original-title="NEIC诺基亚体验创新中心"><img src="/resources/page/web/img/c51b238c2acc2fb62991cb0d95786890.png"
-                                                                width="75" height="35"></a>
-                </figure>
-            </li>
-        </ul>
-    </nav>
+<!-- BEGIN EMPTY PAGE SIDEBAR -->
+<div class="page-sidebar navbar-collapse collapse">
+	<ul class="page-sidebar-menu visible-sm visible-xs">
+		<li>
+			<!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
+			<form class="sidebar-search" action="extra_search.html" method="POST">
+				<div class="form-container">
+					<div class="input-box">
+						<a href="javascript:;" class="remove"></a>
+						<input type="text" placeholder="Search..."/>
+						<input type="button" class="submit" value=" "/>
+					</div>
+				</div>
+			</form>
+			<!-- END RESPONSIVE QUICK SEARCH FORM -->
+		</li>
+		<li>
+			<a class="active" href="index.html">
+            首页 </a>
+		</li>
+		<li class="active">
+			<a href="javascript:;">
+			Layouts
+			<span class="arrow open">
+			</span>
+			<span class="selected">
+			</span>
+			</a>
+			<ul class="sub-menu">
+				<li>
+					<a href="layout_language_bar.html">
+					<span class="badge badge-roundless badge-important">
+						new
+					</span>
+					Language Switch Bar</a>
+				</li>
+				<li>
+					<a href="layout_horizontal_sidebar_menu.html">
+					Horizontal & Sidebar Menu </a>
+				</li>
+				<li class="active">
+					<a href="layout_horizontal_menu1.html">
+					Horizontal Menu 1 </a>
+				</li>
+				<li>
+					<a href="layout_horizontal_menu2.html">
+					Horizontal Menu 2 </a>
+				</li>
+				<li>
+					<a href="layout_disabled_menu.html">
+					Disabled Menu Links</a>
+				</li>
+				<li>
+					<a href="layout_promo.html">
+					Promo Page </a>
+				</li>
+				<li>
+					<a href="layout_email.html">
+					Email Templates </a>
+				</li>
+				<li>
+					<a href="layout_ajax.html">
+					Content Loading via Ajax</a>
+				</li>
+				<li>
+					<a href="layout_sidebar_closed.html">
+					Sidebar Closed Page </a>
+				</li>
+				<li>
+					<a href="layout_sidebar_fixed.html">
+					Sidebar Fixed Page </a>
+				</li>
+				<li>
+					<a href="layout_blank_page.html">
+					Blank Page </a>
+				</li>
+				<li>
+					<a href="layout_boxed_page.html">Boxed Page</a>
+				</li>
+				<li>
+					<a href="layout_boxed_not_responsive.html">
+					Non-Responsive Boxed Layout </a>
+				</li>
+				<li>
+					<a href="javascript:;">
+					More options
+					<span class="arrow">
+					</span>
+					</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="#">Second level link</a>
+						</li>
+						<li>
+							<a href="javascript:;">More options
+							<span class="arrow">
+							</span>
+							</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="index.html">Third level link</a>
+								</li>
+								<li>
+									<a href="index.html">Third level link</a>
+								</li>
+								<li>
+									<a href="index.html">Third level link</a>
+								</li>
+								<li>
+									<a href="index.html">Third level link</a>
+								</li>
+								<li>
+									<a href="index.html">Third level link</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="index.html">Second level link</a>
+						</li>
+						<li>
+							<a href="index.html">Second level link</a>
+						</li>
+						<li>
+							<a href="index.html">Second level link</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a href="">Tables</a>
+		</li>
+		<li>
+			<a href="">Extra
+			<span class="arrow">
+			</span>
+			</a>
+			<ul class="sub-menu">
+				<li>
+					<a href="index.html">About Us</a>
+				</li>
+				<li>
+					<a href="index.html">Services</a>
+				</li>
+				<li>
+					<a href="index.html">Pricing</a>
+				</li>
+				<li>
+					<a href="index.html">FAQs</a>
+				</li>
+				<li>
+					<a href="index.html">Gallery</a>
+				</li>
+				<li>
+					<a href="index.html">Registration</a>
+				</li>
+				<li>
+					<a href="index.html">2 Columns (Left)</a>
+				</li>
+				<li>
+					<a href="index.html">2 Columns (Right)</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
 </div>
+<!-- END EMPTY PAGE SIDEBAR -->
+<!-- END SIDEBAR -->

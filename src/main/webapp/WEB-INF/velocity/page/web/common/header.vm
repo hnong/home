@@ -1,23 +1,149 @@
 <!DOCTYPE html>
-<html xmlns:wb="http://open.weibo.com/wb">
+
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <title>***</title>
-    <meta name="keywords" content="创业, 想创业, 投资, 融资, 创投媒体, 创业公司, 科技新闻, 移动互联网, 资讯平台, 开放日, 互联网创业">
-    <meta name="description" content="一个关注互联网创业的科技博客">
-    <link href="/resources/page/web/css/front-ff80730b5793e0af872251a7a96d0fba.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="/resources/page/web/css/topics-6544913f1e5ef56c90337179623b2ac0.css" media="screen" rel="stylesheet" type="text/css">
-    <meta content="authenticity_token" name="csrf-param">
-    <meta content="T9q8myKpUu26NwTQENgvE+D6nOQ+O1/Zl4ox4lbVrQQ=" name="csrf-token">
+<meta charset="utf-8"/>
+<title>Metronic | Dashboard 2</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="" name="description"/>
+<meta content="" name="author"/>
+<meta name="MobileOptimized" content="320">
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+    <link href="assets/plugins/gritter/css/jquery.gritter.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/plugins/fullcalendar/fullcalendar/fullcalendar.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/plugins/jqvmap/jqvmap/jqvmap.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/plugins/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css"/>
+    <!-- END PAGE LEVEL PLUGIN STYLES -->
+    <!-- BEGIN THEME STYLES -->
+    <link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/plugins.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/pages/tasks.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+    <link href="assets/css/custom.css" rel="stylesheet" type="text/css"/>
+    <!-- END THEME STYLES -->
 
-    <script src="/resources/page/web/js/wb.js" type="text/javascript" charset="utf-8"></script>
-    <meta name="google-site-verification" content="ZXHbTejR2B0YAQV7i3lDhN33yMG9neMjcO79LWz_1v0">
-    <!--[if lte IE 6]>
-    <meta http-equiv="refresh" content="0; url=/ie6"/>
-<![endif]-->
+<link rel="shortcut icon" href="favicon.ico"/>
 </head>
-<body>
-<div class="frontLayer onDesktop">
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="page-header-fixed page-full-width">
 
-<section class="row-fluid" id="mainContainer">
+<!-- BEGIN HEADER -->
+<div class="header navbar navbar-inverse navbar-fixed-top">
+	<!-- BEGIN TOP NAVIGATION BAR -->
+	<div class="header-inner">
+		<!-- BEGIN LOGO -->
+		<a class="navbar-brand" href="index.html">
+		<img src="assets/img/logo.png" alt="logo" class="img-responsive"/>
+		</a>
+		<!-- END LOGO -->
+		<!-- BEGIN HORIZANTAL MENU -->
+		<div class="hor-menu hidden-sm hidden-xs">
+			<ul class="nav navbar-nav">
+				<li>
+					<a href="index.html">
+                    首页 </a>
+				</li>
+				<li class="active">
+					<a data-toggle="dropdown" data-hover="dropdown" data-close-others="true" class="dropdown-toggle" href="javascript:;">
+					<span class="selected">
+					</span>
+                    咨询 <i class="fa fa-angle-down"></i>
+					</a>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="layout_language_bar.html">
+							<span class="badge badge-roundless badge-important">
+								new
+							</span>
+                            农业科技</a>
+						</li>
+						<li>
+							<a href="layout_horizontal_sidebar_menu.html">
+                            创业投资 </a>
+						</li>
+						<li class="active">
+							<a href="layout_horizontal_menu1.html">
+                            产业市场 </a>
+						</li>
+						<li>
+							<a href="layout_horizontal_menu2.html">
+                            新农人 </a>
+						</li>
+					</ul>
+				</li>
+                <li>
+                    <a href="">农场/合作社</a>
+                </li>
+                <li>
+                    <a href="">招商项目</a>
+                </li>
+				<li>
+					<a href="">农展会</a>
+				</li>
+				<li>
+					<span class="hor-menu-search-form-toggler">
+						&nbsp;
+					</span>
+					<div class="search-form">
+						<form class="form-search">
+							<div class="input-group">
+								<input type="text" placeholder="Search..." class="form-control">
+								<div class="input-group-btn">
+									<button type="button" class="btn"></button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- END HORIZANTAL MENU -->
+		<!-- BEGIN RESPONSIVE MENU TOGGLER -->
+		<a href="javascript:;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<img src="assets/img/menu-toggler.png" alt=""/>
+		</a>
+		<!-- END RESPONSIVE MENU TOGGLER -->
+		<!-- BEGIN TOP NAVIGATION MENU -->
+		<ul class="nav navbar-nav pull-right">
+			<!-- BEGIN USER LOGIN DROPDOWN -->
+			<li class="dropdown user">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+				<img alt="" src="assets/img/avatar1_small.jpg"/>
+				<span class="username">
+					Bob Nilson
+				</span>
+				<i class="fa fa-angle-down"></i>
+				</a>
+				<ul class="dropdown-menu">
+					<li>
+						<a href="extra_profile.html"><i class="fa fa-user"></i> My Profile</a>
+					</li>
+					<li class="divider">
+					</li>
+					<li>
+						<a href="login.html"><i class="fa fa-key"></i> Log Out</a>
+					</li>
+				</ul>
+			</li>
+			<!-- END USER LOGIN DROPDOWN -->
+		</ul>
+		<!-- END TOP NAVIGATION MENU -->
+	</div>
+	<!-- END TOP NAVIGATION BAR -->
+</div>
+<!-- END HEADER -->
